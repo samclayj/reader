@@ -1,5 +1,7 @@
 # reader
 
+News aggregator and reader.
+
 ## Project setup
 ```
 npm install
