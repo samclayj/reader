@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "jshint": "^2.9.6",
     "vue": "^2.5.17"
   },
   "devDependencies": {

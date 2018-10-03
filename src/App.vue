@@ -2,16 +2,23 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Stream msg="Uhhhhhhh"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Stream from './components/Stream.vue'
+import Entry from './components/Entry.vue'
+import Grid from './components/Grid.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Stream,
+    Entry,
+    Grid,
   }
 }
 </script>
