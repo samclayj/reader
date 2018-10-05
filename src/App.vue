@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Grid msg="I am a grid dawg" feed-url="https://news.ycombinator.com/rss"/>
     <Stream msg="Uhhhhhhh"/>
   </div>
 </template>

@@ -31,11 +31,27 @@
 </template>
 
 <script>
+import * as parser from '../rss-parser.js'
+
 export default {
   name: 'Grid',
   props: {
-    msg: String
-  }
+    msg: String,
+    feedUrl: String,
+  },
+
+  created() {
+    console.log('Created');
+    console.log(this.feedUrl);
+    this.loadFeed(this.feedUrl);
+  },
+
+  methods: {
+    loadFeed: async function(feedUrl) {
+      const feed = await parser.getFeed(feedUrl);
+      console.log(feed);
+    },
+  },
 }
 </script>
 
